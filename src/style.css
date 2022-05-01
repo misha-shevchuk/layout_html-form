@@ -1,13 +1,13 @@
 /* styles go here */
 label {
   display: block;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 fieldset {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
-button {
-  margin: 10px 20px;
+.last {
+  margin-bottom: 0;
 }

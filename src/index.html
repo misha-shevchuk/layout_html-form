@@ -19,7 +19,6 @@
   </head>
 
   <body>
-    <h1>HTML Form</h1>
     <script
       type="text/javascript"
       src="./main.js"
@@ -55,7 +54,7 @@
         </label>
 
         <label>
-          How old are You?:
+          How old are You?
 
           <input
             name="age"
@@ -72,8 +71,8 @@
           <input type="date">
         </label>
 
-        <label>
-          I accept the terms of the agreement
+        <label class="last">
+          I accept the term of the agreement
 
           <input
             name="agreement"
@@ -96,7 +95,7 @@
           >
         </label>
 
-        <label>
+        <label class="last">
           Password:
           <input
             name="password"
@@ -126,7 +125,7 @@
         </label>
 
         <label>
-          What is your favorit color?
+          What is your favorite color?
           <input
             name="color"
             type="color"
@@ -138,6 +137,7 @@
           <input
             name="timeToSleep"
             type="time"
+            step="2"
           >
         </label>
 
@@ -145,7 +145,7 @@
           What are your favorite brand of cars?
           <select
             name="carBrands"
-            size="3"
+            size="4"
             multiple
           >
             <option value="bmw">BMW</option>
@@ -154,8 +154,8 @@
           </select>
         </label>
 
-        <label>
-          How do you rate your work?
+        <label class="last">
+          How do you rate our work?
           <input
             name="rateYourWork"
             type="range"
@@ -173,11 +173,11 @@
           <textarea
             name="comments"
             cols="20"
-            rows="3"
+            rows="2"
           ></textarea>
         </label>
 
-        <label>
+        <label class="last">
           Would you recommend us?
           <select name="wouldRecommend">
             <option value="yes">yes</option>
